@@ -24,16 +24,14 @@ iconColor: eeeeff
 accessible: true
 alwaysUnlocked: true
 
-itemWhitelist:[
-  sand
-]
+research: exposition
 
-research: {
-  planet: kado
-  root: true
-  requiresUnlock: false
-  name: "K.A.D.O 1127"
-}
+// research: {
+//   planet: kado
+//   root: false
+//   parent: exposition
+//   requiresUnlock: false
+// }
 
 mesh: [
 	{

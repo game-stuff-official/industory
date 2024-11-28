@@ -10,14 +10,12 @@ unitType: syllable
 
 // TODO requirement
 
-research: kado
 
-//research:{
-//  parent: kado
-//  root: false
-//  requiresUnlock: false
-//  planet: kado
-//  name: "Exposition"
-//}
+research: {
+  planet: kado
+  root: true
+  requiresUnlock: false
+  name: "K.A.D.O 1127"
+}
   
 category: "effect"
