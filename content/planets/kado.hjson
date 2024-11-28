@@ -1,12 +1,12 @@
 generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
-orbitRadius: 16
+orbitRadius: 32
 
 startSector: 1
 
 clearSectorOnLose: true
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: false
@@ -16,8 +16,8 @@ visible: true
 updateLighting: false
 defaultCore: exposition
 // sectorSize: 2
-sectorSize: 0.2
-radius: 0.5
+sectorSize: 1
+radius: 2
 
 iconColor: eeeeff
 accessible: true
