@@ -5,6 +5,8 @@ itemCapacity: 100
 alwaysUnlocked: true
 name: "Exposition"
 description: "The first iteration."
+isFirstTier: true
+unitType: syllable
 
 // TODO requirement
 research:{
@@ -12,7 +14,7 @@ research:{
   root: false
   requiresUnlock: false
   planet: kado
-  name: "Exposition"
+//  name: "Exposition"
 }
   
 category: "effect"
