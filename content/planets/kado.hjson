@@ -17,7 +17,7 @@ updateLighting: false
 defaultCore: exposition
 // sectorSize: 2
 sectorSize: 1
-radius: 2
+radius: 3
 
 iconColor: eeeeff
 accessible: true
