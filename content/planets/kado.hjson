@@ -28,9 +28,9 @@ itemWhitelist:[
 ]
 
 research: {
-  planet: "kado"
+  planet: kado
   root: true
-  requires-unlock: false
+  requiresUnlock: false
   name: "K.A.D.O 1127"
 }
 
