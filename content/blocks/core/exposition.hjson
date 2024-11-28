@@ -8,6 +8,7 @@ description: "The first iteration."
 
 // TODO requirement
 research:{
+  parent: kado
   root: false
   requiresUnlock: false
   planet: kado
