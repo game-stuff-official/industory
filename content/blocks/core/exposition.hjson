@@ -15,7 +15,7 @@ research: {
   planet: kado
   root: true
   requiresUnlock: false
-  name: "K.A.D.O 1127"
+  // name: kado
 }
   
 category: "effect"

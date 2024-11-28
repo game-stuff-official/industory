@@ -1,4 +1,5 @@
-name: "K.A.D.O 1124"
+// name: "K.A.D.O 1124"
+name: kado
 generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
