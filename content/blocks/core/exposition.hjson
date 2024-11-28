@@ -8,8 +8,10 @@ description: "The first iteration."
 
 // TODO requirement
 research:{
-  root: true
+  root: false
   requiresUnlock: false
+  planet: kado
+  name: "Exposition"
 }
   
 category: "effect"
