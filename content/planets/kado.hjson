@@ -1,7 +1,7 @@
 generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
-orbitRadius: 8
+orbitRadius: 16
 
 startSector: 1
 
@@ -16,10 +16,10 @@ visible: true
 updateLighting: false
 defaultCore: exposition
 // sectorSize: 2
-radius: 1
+radius: 0.5
 
 iconColor: eeeeff
-// accesible: true
+accessible: true
 alwaysUnlocked: true
 
 itemWhitelist:[
