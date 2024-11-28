@@ -1,0 +1,31 @@
+type: flying
+name: "Syllable"
+flying: true
+shadowElevation: 0.2
+speed: 3
+
+health: 250
+drag: 0.09
+accel: 0.2
+hitSize: 16
+
+lightRadius: 29
+lightOpacity: 1
+buildSpeed: 1
+mineTier: 1
+mineSpeed: 2
+range: 120
+
+buildBeamOffset: 9
+rotateToBuilding: false
+buildRange: 120
+mineRange: 120
+
+alwaysUnlocked: true
+// weapons: []
+
+research: {
+  parent: exposition
+  requiresUnlock: false
+  planet: kado
+}
