@@ -26,8 +26,10 @@ mineRange: 120
 alwaysUnlocked: true
 // weapons: []
 
-research: {
-  parent: exposition
-  requiresUnlock: false
-  planet: kado
-}
+research: exposition
+
+// research: {
+//   parent: exposition
+//   requiresUnlock: false
+//   planet: kado
+// }

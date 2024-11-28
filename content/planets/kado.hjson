@@ -25,14 +25,14 @@ iconColor: eeeeff
 accessible: true
 alwaysUnlocked: true
 
-// research: exposition
+research: exposition
 
-research: {
-  planet: kado
-  root: false
-  parent: exposition
-  requiresUnlock: false
-}
+// research: {
+//   planet: kado
+//   root: false
+//   parent: exposition
+//   requiresUnlock: false
+// }
 
 mesh: [
 	{
