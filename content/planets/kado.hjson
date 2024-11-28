@@ -29,7 +29,7 @@ alwaysUnlocked: true
 research: {
   planet: kado
   root: false
-//   parent: exposition
+  parent: exposition
   requiresUnlock: false
 }
 

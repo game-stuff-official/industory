@@ -27,7 +27,7 @@ alwaysUnlocked: true
 // weapons: []
 
 research: {
-  // parent: exposition
+  parent: exposition
   requiresUnlock: false
   planet: kado
 }
