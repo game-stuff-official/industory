@@ -16,6 +16,7 @@ visible: true
 updateLighting: false
 defaultCore: exposition
 // sectorSize: 2
+sectorSize: 2
 radius: 0.5
 
 iconColor: eeeeff
