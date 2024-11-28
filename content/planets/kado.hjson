@@ -16,7 +16,7 @@ bloom: false
 visible: true
 updateLighting: false
 defaultCore: exposition
-// sectorSize: 2
+sectorSize: 2
 
 radius: 1.1
 
