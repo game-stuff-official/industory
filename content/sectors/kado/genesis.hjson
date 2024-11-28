@@ -2,4 +2,8 @@ sector: 1
 planet: kado
 alwaysUnlocked: true
 difficulty: 1
-research: kado
+research: {
+    planet: kado
+    requiresUnlock: false
+    parent: exposition
+}
