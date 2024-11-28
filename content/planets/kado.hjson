@@ -1,0 +1,116 @@
+generator: "PlanetGenerator"
+solarSystem: sun
+parent: sun
+orbitRadius: 8
+
+startSector: 1
+
+clearSectorOnLose: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: true
+allowLaunchLoadout: false
+allowSectorInvasion: false
+hasAtmosphere: false
+bloom: false
+visible: true
+updateLighting: false
+defaultCore: exposition
+sectorSize: 2
+radius: 1
+
+iconColor: eeeeff
+accesible: true
+alwaysUnlocked: true
+
+itemWhitelist:[
+  sand
+]
+
+research: {
+  planet: "kado"
+  root: true
+  requires-unlock: false
+  name: "K.A.D.O 1127"
+}
+
+mesh: [
+	{
+	//sand/desert
+		type: NoiseMesh
+		planet: kado
+		divisions: 5
+		radius: 0.9
+		color1: cba380
+		color2: a06a3b
+		octaves: 3
+		persistence: 1.4
+		mag: 2.35
+		scl: 14
+	}
+      	{
+		//Carbon
+		type: NoiseMesh
+		planet: kado
+		divisions: 5
+		radius: 1
+		color1: 3c4448
+		color2: 282b34
+		octaves: 3
+		persistence: 1.4
+		mag: 1
+		scl: 1
+		seed: 2
+	}
+	{
+		//Resonarum
+		type: NoiseMesh
+		planet: kado
+		divisions: 5
+		radius: 0.9
+		color1: a7d2b4
+		color2: 4bb66b
+		octaves: 3
+		persistence: 1
+		mag: 1.8
+		scl: 1
+		seed: 2
+	}
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: kado
+   speed: 0.8
+   radius: 0.1
+   divisions: 6
+   color: a43280b4
+   octaves: 3
+   persistence: 0.3
+   scl: 3
+   thresh: 0.6
+  }
+ {
+   type: HexSkyMesh
+   planet: kado
+   speed: 0.5
+   radius: 0.12
+   divisions: 6
+   color: e5aed7e3
+   octaves: 3
+   persistence: 0.3
+   scl: 3
+   thresh: 0.2
+  }
+ {
+   type: HexSkyMesh
+   planet: kado
+   speed: 1.2
+   radius: -0.1
+   divisions: 6
+   color: e5aed7e3
+   octaves: 3
+   persistence: 0.3
+   scl: 3
+   thresh: 0.4
+  }
+]
