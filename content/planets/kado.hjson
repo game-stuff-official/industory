@@ -1,4 +1,4 @@
-name: "K.A.D.O 2724"
+name: "K.A.D.O 1124"
 generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
@@ -16,7 +16,7 @@ bloom: false
 visible: true
 updateLighting: false
 defaultCore: exposition
-sectorSize: 2
+sectorSize: 1.9
 
 radius: 1.1
 

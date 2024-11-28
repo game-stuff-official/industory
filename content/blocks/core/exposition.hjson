@@ -9,12 +9,15 @@ isFirstTier: true
 unitType: syllable
 
 // TODO requirement
-research:{
-  parent: kado
-  root: false
-  requiresUnlock: false
-  planet: kado
-  name: "Exposition"
-}
+
+research: kado
+
+//research:{
+//  parent: kado
+//  root: false
+//  requiresUnlock: false
+//  planet: kado
+//  name: "Exposition"
+//}
   
 category: "effect"
