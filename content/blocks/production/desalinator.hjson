@@ -1,0 +1,51 @@
+name: "Desalinator"
+description: "Removes salt from salt water."
+size: 1
+squareSprite: false
+
+type: GenericCrafter
+
+outputLiquid: water/0.25
+liquidCapacity: 20
+
+consumes: {
+    power: 2
+    liquids: [
+        saltwater/0.25
+    ]
+}
+
+// Crafts 60/60-nce per second
+craftTime: 60
+
+requirements: [
+    copper/69
+    metaglass/4
+]
+
+research: saltwater
+
+category: crafting
+
+drawer: {
+    type: drawMulti
+    drawers:[
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawLiquidTile
+            suffix: -liquid
+            drawLiquid: saltwater
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+        {
+// https://mindustrygame.github.io/wiki/Modding%20Classes/DrawFlame/#drawflame
+            type: DrawFlame
+        }
+    ]
+}

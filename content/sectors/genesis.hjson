@@ -1,5 +1,5 @@
 sector: 1
-planet: kado
+// planet: kado
 alwaysUnlocked: true
 difficulty: 1
 research: exposition

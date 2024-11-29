@@ -12,7 +12,7 @@ unitType: syllable
 
 
 research: {
-  planet: kado
+  // planet: kado
   root: true
   requiresUnlock: false
   // name: kado
