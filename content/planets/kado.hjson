@@ -3,7 +3,7 @@ name: kado
 generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
-orbitRadius: 64
+orbitRadius: 60
 
 startSector: 1
 
@@ -77,41 +77,41 @@ mesh: [
 		seed: 2
 	}
 ]
-cloudMesh: [
- {
-   type: HexSkyMesh
-   planet: kado
-   speed: 0.8
-   radius: 2
-   divisions: 6
-   color: a43280b4
-   octaves: 3
-   persistence: 0.3
-   scl: 3
-   thresh: 0.6
-  }
- {
-   type: HexSkyMesh
-   planet: kado
-   speed: 0.5
-   radius: 2
-   divisions: 6
-   color: e5aed7e3
-   octaves: 3
-   persistence: 0.3
-   scl: 3
-   thresh: 0.2
-  }
- {
-   type: HexSkyMesh
-   planet: kado
-   speed: 1.2
-   radius: 2
-   divisions: 6
-   color: e5aed7e3
-   octaves: 3
-   persistence: 0.3
-   scl: 3
-   thresh: 0.4
-  }
-]
+// cloudMesh: [
+//  {
+//    type: HexSkyMesh
+//    planet: kado
+//    speed: 0.8
+//    radius: 2
+//    divisions: 6
+//    color: a43280b4
+//    octaves: 3
+//    persistence: 0.3
+//    scl: 3
+//    thresh: 0.6
+//   }
+//  {
+//    type: HexSkyMesh
+//    planet: kado
+//    speed: 0.5
+//    radius: 2
+//    divisions: 6
+//    color: e5aed7e3
+//    octaves: 3
+//    persistence: 0.3
+//    scl: 3
+//    thresh: 0.2
+//   }
+//  {
+//    type: HexSkyMesh
+//    planet: kado
+//    speed: 1.2
+//    radius: 2
+//    divisions: 6
+//    color: e5aed7e3
+//    octaves: 3
+//    persistence: 0.3
+//    scl: 3
+//    thresh: 0.4
+//   }
+// ]
