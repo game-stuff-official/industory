@@ -36,7 +36,8 @@ drawer: {
         }
         {
             type: DrawLiquidTile
-            suffix: -liquid
+            // causes an unknown field warning
+            // suffix: -liquid
             drawLiquid: saltwater
         }
         {
