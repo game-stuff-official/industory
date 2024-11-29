@@ -2,14 +2,16 @@ name: "Desalinator"
 description: "Removes salt from salt water."
 size: 1
 squareSprite: false
-
 type: GenericCrafter
 
-outputLiquid: water/0.25
 liquidCapacity: 20
+itemCapacity: 10
 
-// Four salt per 4 seconds, see craftTime \/
-outputItem: salt/4
+// 240/60 = 4 seconds per craft
+craftTime: 240
+outputLiquid: water/0.25
+// Two salt per 4 seconds, see craftTime \/
+outputItem: salt/2
 
 consumes: {
     power: 2
@@ -17,9 +19,6 @@ consumes: {
         saltwater/0.25
     ]
 }
-
-// Crafts 240/60 = 4 times per second
-craftTime: 60
 
 requirements: [
     copper/69
@@ -37,11 +36,19 @@ drawer: {
             type: DrawRegion
             suffix: -bottom
         }
+        // 2 DrawLiquidTiles as an attempt to render both liquids in the same block. When filled with water turn water colored and when not turn saltwater colored.
         {
             type: DrawLiquidTile
             // causes an unknown field warning maybe not though?
             suffix: -liquid
             drawLiquid: saltwater
+        }
+        {
+            type: DrawLiquidTile
+            // causes an unknown field warning maybe not though?
+            suffix: -liquid
+            drawLiquid: water
+            alpha: 0.9
         }
         {
             type: DrawRegion
@@ -50,8 +57,8 @@ drawer: {
         {
 // https://mindustrygame.github.io/wiki/Modding%20Classes/DrawFlame/#drawflame
             type: DrawFlame
-            flameRadius: 1.5 //half size of default, 3
-            flameRadiusIn: 0.45 //half size of default, 0.9
+            flameRadius: 0.75 //quarter size of default, 3
+            flameRadiusIn: 0.225 //quarter size of default, 0.9
         }
     ]
 }
