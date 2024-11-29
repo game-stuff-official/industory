@@ -7,7 +7,9 @@ type: GenericCrafter
 
 outputLiquid: water/0.25
 liquidCapacity: 20
-outputItem: salt/0.25
+
+// Four salt per 4 seconds, see craftTime \/
+outputItem: salt/4
 
 consumes: {
     power: 2
@@ -16,7 +18,7 @@ consumes: {
     ]
 }
 
-// Crafts 60/60-nce per second
+// Crafts 240/60 = 4 times per second
 craftTime: 60
 
 requirements: [
@@ -48,6 +50,8 @@ drawer: {
         {
 // https://mindustrygame.github.io/wiki/Modding%20Classes/DrawFlame/#drawflame
             type: DrawFlame
+            flameRadius: 1.5 //half size of default, 3
+            flameRadiusIn: 0.45 //half size of default, 0.9
         }
     ]
 }
