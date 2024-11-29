@@ -6,12 +6,19 @@ type: GenericCrafter
 
 liquidCapacity: 20
 itemCapacity: 10
+// so it quits going when it fills with water
+dumpExtraLiquids: false
 
 // 240/60 = 4 seconds per craft
 craftTime: 240
 outputLiquid: water/0.25
 // Two salt per 4 seconds, see craftTime \/
 outputItem: salt/2
+
+outputFacing: true
+noSideBlend: true
+rotate: true
+quickRotate: true
 
 consumes: {
     power: 2
