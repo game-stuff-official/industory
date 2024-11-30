@@ -23,7 +23,7 @@ outputLiquids: [
 consumes: {
     power: 4
     items: [
-        sand: 1
+        sand/1
     ]
 }
 
