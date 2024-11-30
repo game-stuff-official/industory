@@ -4,7 +4,7 @@ description: "Liquid formed by heating sand to extreme tempuratures."
 color: ffdddd
 flammability: 0
 temperature: 20
-viscosity: 0.2
+viscosity: 0.75
 explosiveness: 0
 research: {
     parent: salt
