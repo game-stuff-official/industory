@@ -60,10 +60,10 @@ drawer: {
             alpha: 1
         }
         {
-            type: DrawBlurSpin
+            type: DrawRegion
             suffix: -turbine
-            rotateSpeed: 0.5
-            blurThresh: 0
+            rotateSpeed: 2
+            // blurThresh: 0
         }
         {
             type: DrawRegion
