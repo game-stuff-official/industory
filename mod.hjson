@@ -2,7 +2,7 @@ name: "industory"
 displayName: "Industory"
 author: "GameStuff"
 description: "A completely separate game focusing heavily on factories and efficiency."
-version: "0.0"
+version: "0.1"
 minGameVersion: "146"
 dependecies: []
 hidden: false
