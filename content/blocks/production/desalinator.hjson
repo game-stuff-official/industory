@@ -31,7 +31,12 @@ requirements: [
     metaglass/10
 ]
 
-research: saltwater
+research: {
+    parent: exposition
+    objectives: [
+        saltwater
+    ]
+}
 
 category: crafting
 

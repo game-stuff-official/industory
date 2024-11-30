@@ -34,7 +34,12 @@ requirements: [
     metaglass/10
 ]
 
-research: salt
+research: {
+    parent: desalinator
+    objectives: [
+        salt
+    ]
+}
 
 category: crafting
 

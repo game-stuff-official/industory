@@ -1,0 +1,43 @@
+name: "Silical Melter"
+description: "Melts sand down into liquid silica for use. Creates trace amount of waste that must be filtered out."
+size: 2
+squareSprite: true
+type: GenericCrafter
+
+liquidCapacity: 30
+itemCapacity: 20
+
+// 60/60 = 1 seconds per craft
+craftTime: 60
+outputLiquids: [
+    molten-silica/0.25
+    slag/0.025
+]
+
+// outputFacing: true
+// noSideBlend: true
+// rotate: true
+// quickRotate: true
+// drawArrow: true
+
+consumes: {
+    power: 4
+    items: [
+        sand: 1
+    ]
+}
+
+requirements: [
+    graphite: 150
+    copper: 90
+    lead: 110
+]
+
+research: {
+    parent: exposition
+    objectives: [
+        sand
+    ]
+}
+
+category: crafting

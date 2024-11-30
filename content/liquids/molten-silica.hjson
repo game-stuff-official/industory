@@ -1,0 +1,15 @@
+name: "Molten Silica"
+desecrpition: "Liquid formed by heating sand to extreme tempuratures."
+color: ffdddd
+flammability: 0
+temperature: 20
+viscosity: 0.2
+explosiveness: 0
+research: {
+    parent: salt
+    objectives: [
+        silica-melter
+    ]
+}
+effect: melting
+coolant: false
