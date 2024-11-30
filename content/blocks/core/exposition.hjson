@@ -6,7 +6,7 @@ alwaysUnlocked: true
 name: "Exposition"
 description: "The first iteration."
 isFirstTier: true
-unitType: syllable
+unitType: alpha
 
 // TODO requirement
 

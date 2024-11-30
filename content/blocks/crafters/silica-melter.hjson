@@ -40,7 +40,7 @@ research: {
     ]
 }
 
-drawer:{
+drawer: {
     drawers: [
         {
             type: DrawRegion
