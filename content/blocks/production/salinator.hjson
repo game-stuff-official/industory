@@ -62,7 +62,7 @@ drawer: {
         {
             type: DrawRegion
             suffix: -turbine
-            rotateSpeed: 2
+            rotateSpeed: 4
             // blurThresh: 0
         }
         {
