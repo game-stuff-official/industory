@@ -1,5 +1,5 @@
-name: "Silical Melter"
-description: "Melts sand down into liquid silica for use. Creates trace amount of waste that must be filtered out."
+name: "Silica Melter"
+description: "Melts sand down into molten silica. Creates trace amounts of waste that must be removed."
 size: 2
 squareSprite: true
 type: GenericCrafter
@@ -37,6 +37,22 @@ research: {
     parent: exposition
     objectives: [
         sand
+    ]
+}
+
+drawer:{
+    drawers: [
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+        {
+            type: DrawFlame
+        }
     ]
 }
 
