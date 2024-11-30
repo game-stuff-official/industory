@@ -1,5 +1,5 @@
-name: "Desalinator"
-description: "Removes salt from salt water."
+name: "Salinator"
+description: "Adds salt to water."
 size: 1
 squareSprite: false
 type: GenericCrafter
@@ -9,9 +9,9 @@ itemCapacity: 10
 
 // 240/60 = 4 seconds per craft
 craftTime: 240
-outputLiquid: water/0.25
+outputLiquid: saltwater/0.25
 // Two salt per 4 seconds, see craftTime \/
-outputItem: salt/2
+// outputItem: salt/2
 
 // outputFacing: true
 // noSideBlend: true
@@ -20,9 +20,12 @@ outputItem: salt/2
 // drawArrow: true
 
 consumes: {
-    power: 2
+    // power: 2
     liquids: [
-        saltwater/0.25
+        water/0.25
+    ]
+    items: [
+    salt: 2
     ]
 }
 
@@ -31,7 +34,7 @@ requirements: [
     metaglass/10
 ]
 
-research: saltwater
+research: salt
 
 category: crafting
 
@@ -42,29 +45,29 @@ drawer: {
             type: DrawRegion
             suffix: -bottom
         }
-        // 2 DrawLiquidTiles as an attempt to render both liquids in the same block. When filled with water turn water colored and when not turn saltwater colored.
-        {
-            type: DrawLiquidTile
-            // causes an unknown field warning maybe not though?
-            // suffix: -liquid
-            drawLiquid: saltwater
-        }
+        // 2 DrawLiquidTiles as an attempt to render both liquids in the same block. 
         {
             type: DrawLiquidTile
             // causes an unknown field warning maybe not though?
             // suffix: -liquid
             drawLiquid: water
-            alpha: 0.9
+        }
+        {
+            type: DrawLiquidTile
+            // causes an unknown field warning maybe not though?
+            // suffix: -liquid
+            drawLiquid: saltwater
+            alpha: 1
+        }
+        {
+            type: DrawBlurSpin
+            suffix: -turbine
+            rotateSpeed: 0.5
+            blurThresh: 0
         }
         {
             type: DrawRegion
             suffix: -top
-        }
-        {
-// https://mindustrygame.github.io/wiki/Modding%20Classes/DrawFlame/#drawflame
-            type: DrawFlame
-            flameRadius: 0.75 //quarter size of default, 3
-            flameRadiusIn: 0.225 //quarter size of default, 0.9
         }
     ]
 }
