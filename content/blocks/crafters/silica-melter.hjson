@@ -28,9 +28,9 @@ consumes: {
 }
 
 requirements: [
-    graphite: 150
-    copper: 90
-    lead: 110
+    graphite/150
+    copper/90
+    lead/110
 ]
 
 research: {

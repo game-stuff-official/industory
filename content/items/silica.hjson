@@ -1,0 +1,10 @@
+name: "Silica"
+color: ffffeedd
+
+research: {
+    parent: sand
+    objectives: [
+        silica-melter
+        // something to do with silica cooler
+    ]
+}
