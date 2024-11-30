@@ -25,7 +25,7 @@ consumes: {
         water/0.25
     ]
     items: [
-    salt: 2
+    salt/2
     ]
 }
 
