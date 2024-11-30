@@ -9,7 +9,7 @@ itemCapacity: 10
 
 // 240/60 = 4 seconds per craft
 craftTime: 240
-outputLiquid: saltwater/0.25
+outputLiquid: saltwater/0.125
 // Two salt per 4 seconds, see craftTime \/
 // outputItem: salt/2
 
@@ -22,10 +22,10 @@ outputLiquid: saltwater/0.25
 consumes: {
     // power: 2
     liquids: [
-        water/0.25
+        water/0.125
     ]
     items: [
-    salt/2
+    salt/1
     ]
 }
 
