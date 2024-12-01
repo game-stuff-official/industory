@@ -5,3 +5,4 @@ requirements: [
 ]
 name: "Cancerous Router"
 description: "Splits items equaly in 3 directions. Gayest block."
+variants: 2
