@@ -1,0 +1,4 @@
+name: "Nutrient"
+type: Item
+description: "Fuel for the cancer."
+color:  ffffff

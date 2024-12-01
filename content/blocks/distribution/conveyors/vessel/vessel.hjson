@@ -1,0 +1,13 @@
+name: "Vessel"
+type: Duct
+health: 60
+category: distribution
+requirements: [
+  nutrient/10
+]
+speed: 4
+// research: conveyor
+
+//topRegions: {
+
+//}
