@@ -1,4 +1,4 @@
 name: "Nutrient"
-type: Item
+// type: Item
 description: "Fuel for the cancer."
-color:  ffffff
+color:  ffff00
