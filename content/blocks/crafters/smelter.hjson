@@ -9,7 +9,7 @@ research:{
         kiln
     ]
 }
-craftEffect: smeltSmoke
+craftEffect: Fx.penissmeltsmoke
 recipes:[
     {
         input: {
