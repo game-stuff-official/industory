@@ -2,7 +2,7 @@ type: multicraft.MultiCrafter
 name: Smelter
 description: Smelts resources together.
 size: 2
-recipies:
+recipes:
 [
     {
         input: {
