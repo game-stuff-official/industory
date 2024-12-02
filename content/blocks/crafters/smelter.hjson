@@ -16,11 +16,12 @@ recipes:[
                 coal/1
             ]
             fluids: [
-                molten-silica/0.5
+                industory-molten-silica/0.5
             ]
+            # 0.5 - 0.3 = 0.2, 0.3 power is used in the silica melter
+            power: 0.5
         }
         output: silicon/1
-        power: 0.5
         craftTime: 40
         icon: silicon
     }
@@ -30,11 +31,12 @@ recipes:[
                 lead/1
             ]
             fluids: [
-                molten-silica/0.25
+                industory-molten-silica/0.25
             ]
+            # 0.5 - 0.6 = 0.3, 0.3 power is used in the silica melter
+            power: 0.3
         }
         output: metaglass/1
-        power: 0.6
         craftTIme: 30
         icon: metaglass
     }

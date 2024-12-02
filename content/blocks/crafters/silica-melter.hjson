@@ -21,7 +21,7 @@ outputLiquids: [
 // drawArrow: true
 
 consumes: {
-    power: 4
+    power: 0.3
     items: [
         sand/1
     ]
