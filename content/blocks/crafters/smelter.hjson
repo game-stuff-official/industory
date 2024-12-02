@@ -1,0 +1,35 @@
+type: multicraft.MultiCrafter
+name: Smelter
+description: Smelts resources together.
+size: 2
+recipies:
+[
+    {
+        input: {
+            items: [
+                coal/1
+            ]
+            fluids: [
+                molten-silica/0.5
+            ]
+        }
+        output: silicon/1
+        power: 0.5
+        craftTime: 40
+        icon: silicon
+    }
+    {
+        input: {
+            items: [
+                lead/1
+            ]
+            fluids: [
+                molten-silica/0.25
+            ]
+        }
+        output: metaglass/1
+        power: 0.6
+        craftTIme: 30
+        icon: metaglass
+    }
+]

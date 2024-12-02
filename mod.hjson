@@ -4,5 +4,5 @@ author: "GameStuff"
 description: "Mod that heavily complicated many factories. There is also a new fleshy threat"
 version: "0.2"
 minGameVersion: "146"
-dependecies: []
+dependecies: ["multi-crafter"]
 hidden: false
