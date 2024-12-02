@@ -9,7 +9,7 @@ research:{
         kiln
     ]
 }
-craftEffect: smeltSmoke
+// craftEffect: smeltSmoke
 recipes:[
     {
         input: {
