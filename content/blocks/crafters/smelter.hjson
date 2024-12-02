@@ -33,3 +33,10 @@ recipes:
         icon: metaglass
     }
 ]
+requirements:
+[
+    copper/90
+    graphite/30
+    lead/55
+]
+category: crafting
