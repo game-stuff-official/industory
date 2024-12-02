@@ -1,9 +1,15 @@
-type: multicraft.MultiCrafter
+{
+    type: multicraft.MultiCrafter
 name: Smelter
 description: Smelts resources together.
 size: 2
-recipes:
-[
+research:{
+    parent: silicon-crucible
+    objectives: [
+        kiln
+    ]
+}
+recipes:[
     {
         input: {
             items: [
@@ -33,10 +39,11 @@ recipes:
         icon: metaglass
     }
 ]
-requirements:
-[
+
+requirements:[
     copper/90
     graphite/30
     lead/55
 ]
 category: crafting
+}
