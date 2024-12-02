@@ -1,3 +1,4 @@
+{
 name: "Vessel"
 type: Duct
 health: 60
@@ -11,3 +12,4 @@ speed: 4
 //topRegions: {
 
 //}
+}

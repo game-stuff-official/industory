@@ -1,3 +1,4 @@
+{
 name: "Silica Melter"
 description: "Melts sand down into molten silica. Creates trace amounts of waste that must be removed."
 size: 2
@@ -41,6 +42,7 @@ research: {
 }
 
 drawer: {
+    type: drawMulti
     drawers: [
         {
             type: DrawRegion
@@ -51,9 +53,13 @@ drawer: {
             suffix: -top
         }
         {
+// https://mindustrygame.github.io/wiki/Modding%20Classes/DrawFlame/#drawflame
             type: DrawFlame
+            flameRadius: 3
+            flameRadiusIn: 0.9
         }
     ]
 }
 
 category: crafting
+}

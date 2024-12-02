@@ -24,6 +24,7 @@ recipes:[
         output: silicon/1
         craftTime: 40
         icon: silicon
+        craftEffect: smeltSmoke
     }
     {
         input: {
@@ -39,6 +40,7 @@ recipes:[
         output: metaglass/1
         craftTIme: 30
         icon: metaglass
+        craftEffect: smeltSmoke
     }
 ]
 
